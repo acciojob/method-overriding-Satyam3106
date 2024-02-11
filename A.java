@@ -13,5 +13,10 @@ class B extends A {
         B obj = new B();
         System.out.println(obj.meth());
     }
+
+    String meth()
+    {
+        return "method is overriding in extended class B";
+    }
 }
 
